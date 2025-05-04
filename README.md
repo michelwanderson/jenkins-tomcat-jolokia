@@ -4,8 +4,8 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 ## 📦 Componentes
 
-- [Jenkins](https://www.jenkins.io/) (modo WAR)
-- [Apache Tomcat 9](https://tomcat.apache.org/)
+- [Jenkins](https://www.jenkins.io/) (modo WAR)\
+- [Apache Tomcat 9](https://tomcat.apache.org/)\
 - [Jolokia Agent](https://jolokia.org/) 
 
 
@@ -15,8 +15,8 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 ### 1.  Crie um diretório e Clone o repositório
 
-`mkdir ~/jenkins-tomcat-jolokia`
-``cd ~/jenkins-tomcat-jolokia``
+`mkdir ~/jenkins-tomcat-jolokia`\
+``cd ~/jenkins-tomcat-jolokia``\
 ``git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git
 
 
@@ -37,7 +37,7 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 
 ## 🌐 Acessos
-- **Jenkins Web:** [http://localhost:8080/jenkins](http://localhost:8080/jenkins)
+- **Jenkins Web:** [http://localhost:8080/jenkins](http://localhost:8080/jenkins)\
 - **Jolokia API:** [http://localhost:8080/jolokia](http://localhost:8080/jolokia)
 
 
