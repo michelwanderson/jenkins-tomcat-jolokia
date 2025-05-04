@@ -4,8 +4,8 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 ## 📦 Componentes
 
-- [Jenkins](https://www.jenkins.io/) (modo WAR)\
-- [Apache Tomcat 9](https://tomcat.apache.org/)\
+- [Jenkins](https://www.jenkins.io/) (modo WAR)
+- [Apache Tomcat 9](https://tomcat.apache.org/)
 - [Jolokia Agent](https://jolokia.org/) 
 
 
@@ -37,7 +37,7 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 
 ## 🌐 Acessos
-- **Jenkins Web:** [http://localhost:8080/jenkins](http://localhost:8080/jenkins)\
+- **Jenkins Web:** [http://localhost:8080/jenkins](http://localhost:8080/jenkins)
 - **Jolokia API:** [http://localhost:8080/jolokia](http://localhost:8080/jolokia)
 
 
@@ -45,6 +45,7 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 Exemplo de chamada:
 
 `curl http://localhost:8080/jolokia/version`
+
 `curl http://localhost:8080/jolokia/read/java.lang:type=Memory`
 
 
