@@ -17,7 +17,7 @@ Este projeto contém orientações para criação de uma imagem Docker personali
 
 `mkdir ~/jenkins-tomcat-jolokia`\
 ``cd ~/jenkins-tomcat-jolokia``\
-``git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git
+``git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git``
 
 
 
@@ -70,6 +70,7 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 
 .
 jenkins-tomcat-jolokia/
+
 ├── Dockerfile
 ├── jenkins.war
 └── context.xml
