@@ -67,10 +67,8 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 ---
 
 ## 🗂️ Estrutura do projeto
-
 .
-jenkins-tomcat-jolokia/
-
-├── Dockerfile
-├── jenkins.war
-└── context.xml
+*    **jenkins-tomcat-jolokia/**
+      *    Dockerfile
+      *    jenkins.war
+      *    context.xml
