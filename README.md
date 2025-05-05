@@ -29,18 +29,24 @@ git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git
 
 
 ### 2. Baixe o arquivo jenkins.war
-`wget -O ~/jenkins.war  https://get.jenkins.io/war/2.440/jenkins.war`
+```
+wget -O ~/jenkins.war  https://get.jenkins.io/war/2.440/jenkins.war
+```
 
 
 
 ### 2. Construa a Imagem Docker
 
-``docker build -t jenkins-tomcat-jolokia .``
+```
+docker build -t jenkins-tomcat-jolokia .
+```
 
 
 ### 3. Execute o container
 
-``docker run -d -p 8080:8080 --name CNT-JENKINS-TOMCAT-JOLOKIA jenkins-tomcat-jolokia``
+```
+docker run -d -p 8080:8080 --name CNT-JENKINS-TOMCAT-JOLOKIA jenkins-tomcat-jolokia
+```
 
 
 ## 🌐 Acessos
@@ -51,15 +57,19 @@ git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git
 ## 🔍 Verificando métricas via Jolokia
 Exemplo de chamada:
 
-`curl http://localhost:8080/jolokia/version`
+```
+curl http://localhost:8080/jolokia/version
 
-`curl http://localhost:8080/jolokia/read/java.lang:type=Memory`
+curl http://localhost:8080/jolokia/read/java.lang:type=Memory
+```
 
 
 # Abrir o Jenkins
 Para garantir que o Jenkins está configurado de forma segura pelo administrador, uma senha foi escrita no arquivo de registro, para salva-la e inserir no primeiro acesso via  [http://localhost:8080/jenkins](http://localhost:8080/jenkins)
 
-`docker exec -it CNT-JENKINS-TOMCAT-JOLOKIA cat root/.jenkins/secrets/initialAdminPassword`
+```
+docker exec -it CNT-JENKINS-TOMCAT-JOLOKIA cat root/.jenkins/secrets/initialAdminPassword
+```
 
 ---
 ## 🌟 Features
