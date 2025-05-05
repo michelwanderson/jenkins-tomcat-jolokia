@@ -30,7 +30,7 @@ git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git
 
 ### 2. Baixe o arquivo jenkins.war
 ```
-wget -O ~/jenkins.war  https://get.jenkins.io/war/2.440/jenkins.war
+wget -O jenkins.war  https://get.jenkins.io/war/2.440/jenkins.war
 ```
 
 
