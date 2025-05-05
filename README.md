@@ -70,6 +70,7 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
   - Adicione um proxy reverso (NGINX ou Apache) com autenticação.
   - Restrinja o acesso ao Jolokia por firewall.
 - *Usuário do Container:* Atualmente o container executa como root. Para maior segurança, configure um usuário dedicado no Dockerfile.
+- *Persistencia de Dados:* Em ambiente produtivo, sugiro adicionar volume de dados para o jenkins
 
 
 
