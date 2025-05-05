@@ -16,16 +16,14 @@ Este projeto contém uma imagem Docker personalizada que executa o Jenkins em um
 ### 1.  Crie um diretório e Clone o repositório
 
 `mkdir ~/jenkins-tomcat-jolokia`
-
 `cd ~/jenkins-tomcat-jolokia`
-
 `git clone https://github.com/michel-wanderson/jenkins-tomcat-jolokia.git`
 
 
 
 ### 2. Baixe o arquivo jenkins.war
 `wget -O ~/jenkins.war  https://get.jenkins.io/war/2.440/jenkins.war`
-``
+
 
 
 ### 2. Construa a Imagem Docker
@@ -85,8 +83,11 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 
 ## 🗂️ Estrutura do projeto
 
-```jenkins-tomcat-jolokia/`
+"```shell
+
+jenkins-tomcat-jolokia/
   ├── Dockerfile                 # Arquivo de configuração Docker
   ├── README.md                  # Arquivo de documentação
-  ├── context.xml                 # Arquivo de configuração do jolokia```
+  ├── context.xml                 # Arquivo de configuração do jolokia
+  ```"
 
