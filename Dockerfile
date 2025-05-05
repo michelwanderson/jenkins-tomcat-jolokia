@@ -17,7 +17,7 @@ RUN sed -i '/<auth-constraint>/,/<\/auth-constraint>/d' /usr/local/tomcat/webapp
 
 COPY context.xml /usr/local/tomcat/webapps/jolokia/META-INF/
 
-# 5. Adicionar Jenkins
+# 4. Adicionar Jenkins
 COPY jenkins.war /usr/local/tomcat/webapps/jenkins.war
 
 EXPOSE 8080
