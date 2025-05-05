@@ -2,6 +2,13 @@
 
 Este projeto contém uma imagem Docker personalizada que executa o Jenkins em um servidor Tomcat, com o agente Jolokia habilitado para expor métricas JMX via HTTP.
 
+
+## 🛠️ Requisitos
+
+- Docker
+- Acesso à internet para baixar Jenkins e Jolokia
+- Linux (ou compatível com Docker)
+
 ## 📦 Componentes
 
 - [Jenkins](https://www.jenkins.io/) (modo WAR)
@@ -72,15 +79,6 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 - *Usuário do Container:* Atualmente o container executa como root. Para maior segurança, configure um usuário dedicado no Dockerfile.
 - *Persistencia de Dados:* Em ambiente produtivo, sugiro adicionar volume de dados para o jenkins
 
-
-
----
-
-## 🛠️ Requisitos
-
-- Docker
-- Acesso à internet para baixar Jenkins e Jolokia
-- Linux (ou compatível com Docker)
 
 ---
 
