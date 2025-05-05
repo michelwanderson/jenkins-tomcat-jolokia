@@ -83,11 +83,11 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 
 ## 🗂️ Estrutura do projeto
 
-"```shell
+```shell
 
 jenkins-tomcat-jolokia/
   ├── Dockerfile                 # Arquivo de configuração Docker
   ├── README.md                  # Arquivo de documentação
   ├── context.xml                 # Arquivo de configuração do jolokia
-  ```"
+  ```
 
