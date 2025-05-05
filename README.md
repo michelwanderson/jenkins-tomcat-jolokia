@@ -45,6 +45,7 @@ Este projeto contém uma imagem Docker personalizada que executa o Jenkins em um
 Exemplo de chamada:
 
 `curl http://localhost:8080/jolokia/version`
+
 `curl http://localhost:8080/jolokia/read/java.lang:type=Memory`
 
 
@@ -84,6 +85,8 @@ Para garantir que o Jenkins está configurado de forma segura pelo administrador
 
 jenkins-tomcat-jolokia/
 ├── Dockerfile                 # Arquivo de configuração Docker
+
 ├── README.md                  # Arquivo de documentação
+
 ├── context.xml                 # Arquivo de configuração do jolokia
 
